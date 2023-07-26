@@ -1,0 +1,128 @@
+body{
+    height:100vh
+}
+
+aside{
+    height: 100vh;
+    float: left;
+    width: 25%;
+}
+.kv-logo > img {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+}
+
+.container{
+    background-color: rgb(247, 241, 241);
+    margin-left: 25%;
+    height: 100%;
+    padding-left: 2%;
+    padding-top: 7px;
+}
+
+.top-bar{
+    height: 46px;
+    background-color: white;
+    padding-left: -2%;
+    margin-left: -25%;
+    padding-top: -7px;
+    margin-top: -8px;
+}
+
+.side-nav1{
+    display: flex;
+    height: 5%;
+    width: 95%;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgb(14, 161, 247);
+    
+}
+
+.side-nav1 > img{
+    /* width: 10%;
+    height 10%;
+    margin-top: 30px;
+    border-radius: 50%;
+
+    object-fit: cover; */
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.side-nav1 > h4{
+    margin-left: 10px;
+    color: white;
+    margin-top: 12px;
+}
+
+.create-employee{
+    width: 99%;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px #d8d6d6;
+    height: 50px;
+}
+
+h6{
+    font-size: medium;
+    padding-top: 10px;
+    margin-left: 8px;   
+}
+
+.row1{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.emp-id{
+    padding-left: 30px;
+}
+
+.joining-date{
+    padding-left: 30px;
+}
+
+.row2{
+    padding-left: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.status{
+    padding-left: 30px;
+}
+.Experience{
+    padding-left: 30px;
+}
+.row3{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 20px;
+
+}
+
+.row4{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+
+
+.employee-details{
+    width: 99%;
+    height: 600px;
+    background-color: white;
+    border-radius: 13px;
+}
