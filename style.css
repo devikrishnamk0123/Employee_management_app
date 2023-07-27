@@ -91,6 +91,7 @@ button{
 input:focus {
     outline-style: none;
     border-color: rgb(4, 5, 5);
+    border:none;
 }
 
 
